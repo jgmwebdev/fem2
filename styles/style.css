@@ -76,8 +76,7 @@ body {
   font-family: 'Poppins', sans-serif;
   color: #999;
   font-weight: bold;
-  text-align: left;
-  padding: 1rem;
+  padding-left: 1rem;
   letter-spacing: .8px;
 }
 
@@ -85,8 +84,7 @@ body {
   font-family: 'Poppins', sans-serif;
   color: #999;
   font-weight: bold;
-  text-align: left;
-  padding: 1rem;
+  padding-left: 1rem;
   letter-spacing: .8px;
 }
 
@@ -94,8 +92,7 @@ body {
   font-family: 'Poppins', sans-serif;
   color: #999;
   font-weight: bold;
-  text-align: left;
-  padding: 1rem;
+  padding-left: 1rem;
   letter-spacing: .8px;
 }
 
@@ -103,8 +100,7 @@ body {
   font-family: 'Poppins', sans-serif;
   color: #999;
   font-weight: bold;
-  text-align: left;
-  padding: 1rem;
+  padding-left: 1rem;
   letter-spacing: .8px;
 }
 
@@ -132,7 +128,7 @@ body {
   border: none;
   background-color: #38cc8c;
   color: #f4f4f4;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: 1px;
   -webkit-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
