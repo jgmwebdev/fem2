@@ -1,0 +1,209 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: url("../img/bg-intro-mobile.png");
+  background-color: #ff7a7a;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+  padding: 1.2rem 2.3rem;
+  background-color: #6055a5;
+  color: #f4f4f4;
+  letter-spacing: 0.7px;
+  text-align: center;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  margin: 1rem 0;
+}
+
+.btn span {
+  font-weight: bold;
+}
+
+.container {
+  max-width: 328px;
+  margin: auto;
+  overflow: hidden;
+}
+
+#left {
+  color: #f4f4f4;
+}
+
+#left .container {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 4rem;
+}
+
+#left .container h1 {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+#right {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#right ::-webkit-input-placeholder {
+  font-family: 'Poppins', sans-serif;
+  color: #999;
+  font-weight: bold;
+  text-align: left;
+  padding: 1rem;
+  letter-spacing: .8px;
+}
+
+#right :-ms-input-placeholder {
+  font-family: 'Poppins', sans-serif;
+  color: #999;
+  font-weight: bold;
+  text-align: left;
+  padding: 1rem;
+  letter-spacing: .8px;
+}
+
+#right ::-ms-input-placeholder {
+  font-family: 'Poppins', sans-serif;
+  color: #999;
+  font-weight: bold;
+  text-align: left;
+  padding: 1rem;
+  letter-spacing: .8px;
+}
+
+#right ::placeholder {
+  font-family: 'Poppins', sans-serif;
+  color: #999;
+  font-weight: bold;
+  text-align: left;
+  padding: 1rem;
+  letter-spacing: .8px;
+}
+
+#right .form {
+  margin-top: 0.8rem;
+  text-align: center;
+  background-color: #fff;
+  padding: 1.5rem;
+  margin: auto;
+  border-radius: 10px;
+}
+
+#right .form small {
+  margin: auto;
+  font-size: 0.7rem;
+  color: #999;
+}
+
+#right .form small a {
+  font-weight: bold;
+  color: #ff7a7a;
+}
+
+#right .form .submit {
+  border: none;
+  background-color: #38cc8c;
+  color: #f4f4f4;
+  font-weight: bold;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+#right .form .submit:hover {
+  background-color: #ff7a7a;
+}
+
+#right .form input {
+  display: block;
+  width: 100%;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 2px solid rgba(124, 124, 124, 0.185);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 650px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .main-container {
+    max-width: 1200px;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .container {
+    max-width: 900px;
+  }
+  body {
+    background: url("../img/bg-intro-desktop.png");
+    background-color: #ff7a7a;
+  }
+  #left {
+    left: 0;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  #left .container {
+    text-align: left;
+  }
+  #left .container h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+  #right {
+    right: 0;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */
